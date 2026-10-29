@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Clarafintech is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/clarafintech
+Clarafintech provides spend management and financial automation solutions for businesses in Latin America. The platform offers corporate cards, vendor payments, expense reporting, and AI‑driven insights to help companies control costs, improve compliance, and streamline financial operations across Brazil, Colombia, Mexico and other markets.
+
+**Areas:** Fintech · Spend Management · Latin America · Corporate Cards · Financial Automation · Company
+
+## Clarafintech on APIs.io
+
+Everything profiled for Clarafintech is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/clarafintech/](https://apis.io/providers/clarafintech/)** — or go straight to one of the APIs or properties below.
+
+### APIs (10)
+
+- [Clarafintech Accounts Payable API](https://apis.io/apis/clarafintech/clarafintech-accounts-payable-api/) — Create, cancel, and track Pix payments from the Clara digital account. Brazil only.
+- [Clarafintech Authentication API](https://apis.io/apis/clarafintech/clarafintech-authentication-api/) — OAuth token exchange. Requests also require mutual TLS.
+- [Clarafintech Billing Statements API](https://apis.io/apis/clarafintech/clarafintech-billing-statements-api/) — Retrieve billing statements and statement transactions for reconciliation.
+- [Clarafintech Cards API](https://apis.io/apis/clarafintech/clarafintech-cards-api/) — Create, list, retrieve, lock, unlock, update, and cancel corporate cards.
+- [Clarafintech Digital Account API](https://apis.io/apis/clarafintech/clarafintech-digital-account-api/) — Brazil-only digital account movement search.
+- [Clarafintech Extracted Documents API](https://apis.io/apis/clarafintech/clarafintech-extracted-documents-api/) — Retrieve structured invoice, receipt, and other document data extracted from transactions.
+- [Clarafintech Invoices API](https://apis.io/apis/clarafintech/clarafintech-invoices-api/) — Retrieve Mexico CFDI invoice metadata linked to transactions.
+- [Clarafintech Reimbursements API](https://apis.io/apis/clarafintech/clarafintech-reimbursements-api/) — Retrieve reimbursement data for out-of-pocket expenses.
+- [Clarafintech Transactions API](https://apis.io/apis/clarafintech/clarafintech-transactions-api/) — Search card transactions and retrieve linked documents or fiscal data.
+- [Clarafintech Users API](https://apis.io/apis/clarafintech/clarafintech-users-api/) — Create, update, retrieve, delete, and filter users by identity, role, status, manager, or location.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Clarafintech Agentic Access](https://apis.io/agentic-access/clarafintech/clarafintech-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CardV3](https://apis.io/schemas/clarafintech/clarafintech-card-v3/)
+- [CreatePixPaymentRequestV3](https://apis.io/schemas/clarafintech/clarafintech-create-pix-payment-request-v3/)
+- [PixPaymentV3](https://apis.io/schemas/clarafintech/clarafintech-pix-payment-v3/)
+- [ReimbursementV3](https://apis.io/schemas/clarafintech/clarafintech-reimbursement-v3/)
+- [TransactionV3](https://apis.io/schemas/clarafintech/clarafintech-transaction-v3/)
+- [UpdateUserRequestV3](https://apis.io/schemas/clarafintech/clarafintech-update-user-request-v3/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Clarafintech Context](https://apis.io/jsonld/clarafintech/clarafintech-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Clarafintech API Rules](https://apis.io/rules/clarafintech/clarafintech-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Clarafintech Authentication](https://apis.io/security/clarafintech/clarafintech-authentication/)
+- [Clarafintech Domain Security](https://apis.io/security/clarafintech/clarafintech-domain-security/)
+- [Clarafintech Trust Center](https://apis.io/security/clarafintech/clarafintech-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Clarafintech Plans Pricing](https://apis.io/plans/clarafintech/clarafintech-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.clara.com)
+- [Documentation](https://www.clara.com/blog)
+- [Getting started](https://www.clara.com/resources/switch)
+- [API reference](https://www.clara.com/products/developers)
+- [Pricing](https://www.clara.com/pricing)
+- [Support](https://trust.clara.com/)
+- [Security](https://www.clara.com/platform/security)
+- [Compliance](https://trust.clara.com/)
+- [Terms of service](https://www.clara.com/global/terms)
+- [Privacy policy](https://www.clara.com/global/privacy)
+- [Status](https://status.clara.com/)
+
+## API Evangelist rating
+
+**Kin Score 63.1** — strong · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.7 |
+| Contract quality | 68.4 |
+| Contract governance | 35.6 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 63.7 |
+| Access clarity | 68.4 |
+
+**Agent readiness 40.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | verified |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bound |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 33.9** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/clarafintech/](https://apis.io/providers/clarafintech/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Clarafintech: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/clarafintech/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
